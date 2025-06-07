@@ -23,7 +23,7 @@ This MVP includes the essential features to validate the core concept:
 - 🗓️ **Simple lesson scheduling system (prototype)**  
   Students can request and manage lesson sessions.
   
-- 🧱 **Microservices architecture with RESTful communication**  
+- 💠 **Microservices architecture with RESTful communication**  
   Each feature is separated into independent services.
 
 - 🐳 **Dockerized environment for local development**  
