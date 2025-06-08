@@ -1,3 +1,7 @@
+auth/mvnw
+auth/mvnw.cmd
+auth/.mvn/
+
 #IDEs
  .idea/
 *.iml
