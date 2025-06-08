@@ -1,65 +1,77 @@
-# ==============================================
-# Java & Maven
-# ==============================================
+# ============================
+# Maven build output
+# ============================
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
+release.properties
+pom.xml.tag
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.versionsBackup
 
+# ============================
 # Maven Wrapper
+# ============================
+.mvn/
 mvnw
 mvnw.cmd
-.mvn/
 
-# ==============================================
+# ============================
 # IntelliJ IDEA
-# ==============================================
+# ============================
 .idea/
-*.iws
 *.iml
+*.iws
 *.ipr
-
-# IntelliJ build output
 out/
 
-# ==============================================
-# VS Code (in case you use it too)
-# ==============================================
+# ============================
+# VS Code
+# ============================
 .vscode/
 
-# ==============================================
-# OS-specific files
-# ==============================================
-.DS_Store      # macOS
-Thumbs.db      # Windows
-
-# ==============================================
-# Logs & Temporary files
-# ==============================================
+# ============================
+# Logs and temp files
+# ============================
 *.log
 *.tmp
 *.bak
 *.swp
+*.swo
 
-# ==============================================
-# Environment & Secret files
-# ==============================================
+# ============================
+# OS/system files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Environment or secrets
+# ============================
 .env
-.env.local
+*.env
 *.key
-*.crt
-*.pem
 *.jks
+*.pem
+*.crt
 *.p12
 
-# ==============================================
-# Node (if using frontend parts like Angular)
-# ==============================================
+# ============================
+# Frontend tools (if any)
+# ============================
 node_modules/
 dist/
 build/
-packag
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================
+# Auth module specific (if modular project)
+# ============================
+auth/.idea/
+auth/.mvn/
+auth/mvnw
+auth/mvnw.cmd
+auth/.gitattributes
