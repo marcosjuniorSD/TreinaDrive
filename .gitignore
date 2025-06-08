@@ -1,9 +1,65 @@
-auth/mvnw
-auth/mvnw.cmd
-auth/.mvn/
+# ==============================================
+# Java & Maven
+# ==============================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
 
-#IDEs
- .idea/
+# Maven Wrapper
+mvnw
+mvnw.cmd
+.mvn/
+
+# ==============================================
+# IntelliJ IDEA
+# ==============================================
+.idea/
+*.iws
 *.iml
 *.ipr
-*.iws
+
+# IntelliJ build output
+out/
+
+# ==============================================
+# VS Code (in case you use it too)
+# ==============================================
+.vscode/
+
+# ==============================================
+# OS-specific files
+# ==============================================
+.DS_Store      # macOS
+Thumbs.db      # Windows
+
+# ==============================================
+# Logs & Temporary files
+# ==============================================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ==============================================
+# Environment & Secret files
+# ==============================================
+.env
+.env.local
+*.key
+*.crt
+*.pem
+*.jks
+*.p12
+
+# ==============================================
+# Node (if using frontend parts like Angular)
+# ==============================================
+node_modules/
+dist/
+build/
+packag
