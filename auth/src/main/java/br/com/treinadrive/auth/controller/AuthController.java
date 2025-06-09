@@ -9,7 +9,7 @@ public class AuthController {
 
 
     @PostMapping
-    public User auth() {
-        return null;
+    public String auth() {
+        return "";
     }
 }
