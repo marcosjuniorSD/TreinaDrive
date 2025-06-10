@@ -1,0 +1,71 @@
+# ============================
+# Maven build output
+# ============================
+target/
+dependency-reduced-pom.xml
+buildNumber.properties
+release.properties
+pom.xml.tag
+pom.xml.next
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# ============================
+# Maven Wrapper
+# ============================
+.mvn/
+mvnw
+mvnw.cmd
+
+# ============================
+# IntelliJ IDEA
+# ============================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ============================
+# VS Code
+# ============================
+.vscode/
+
+# ============================
+# Logs and temp files
+# ============================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ============================
+# OS/system files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Environment or secrets
+# ============================
+.env
+*.env
+*.key
+*.jks
+*.pem
+*.crt
+*.p12
+
+# ============================
+# Frontend tools (if any)
+# ============================
+node_modules/
+dist/
+build/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================
+# Auth module s
