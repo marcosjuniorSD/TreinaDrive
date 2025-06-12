@@ -1,10 +1,12 @@
 package br.com.treinadrive.auth.config;
 
+import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configurers.oauth2.server.resource.OAuth2ResourceServerConfigurer;
 import org.springframework.security.web.SecurityFilterChain;
 
+@Configuration
 @EnableWebSecurity
 public class SecurityConfig {
 
@@ -12,8 +14,8 @@ public class SecurityConfig {
     private static final String STUDENT_ROUTE = "/student/**";
     private static final String PUBLIC_ROUTE = "/public/**";
 
-    private static final String INSTRUCTOR = "INSTRUCTOR";
-    private static final String STUDENT = "STUDENT";
+    private static final String INSTRUCTOR = "instructor";
+    private static final String STUDENT = "student";
 
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.authorizeHttpRequests(auth -> auth
